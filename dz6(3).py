@@ -6,7 +6,6 @@ class Worker:
         self.position = position
         self._income = {"wage": wage, "bonus": bonus}
 
-
 class Position(Worker):
 
     def __init__(self, name, surname, position, wage, bonus):

@@ -21,14 +21,12 @@ class Pencil(Stationary):
     def draw(self):
         return f'Вы взяли {self.title}. Запуск отрисовки карандашом'
 
-
 class Handle(Stationary):
     def __init__(self, title):
         super().__init__(title)
 
     def draw(self):
         return f'Вы взяли {self.title}. Запуск отрисовки маркером'
-
 
 pen = Pen('Ручка')
 pencil = Pencil('Карандаш')

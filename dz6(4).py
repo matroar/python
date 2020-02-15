@@ -61,7 +61,6 @@ class PoliceCar(Car):
         else:
             return f'{self.name} is not from police department'
 
-
 audi = SportCar(100, 'Red', 'Audi', False)
 oka = TownCar(30, 'White', 'Oka', False)
 lada = WorkCar(70, 'Rose', 'Lada', True)
